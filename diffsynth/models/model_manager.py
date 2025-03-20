@@ -78,7 +78,7 @@ def load_model_from_single_file(state_dict, model_names, control_layers, model_c
         for key, value in model_state_dict.items():
             if 'blocks' in key:
                 block_number = int(key.split('.')[1])
-                if block_number < 15:
+                if block_number < control_layers:
                     # DIT Blocks
                     new_key = key.replace('blocks', 'control_blocks', 1)
                     model_control_state_dict[new_key] = value
