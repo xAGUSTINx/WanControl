@@ -139,9 +139,9 @@ Ensure the following checkpoints are available in the specified paths:
 
 ## Acknowledgments
 
-**Wan2.1**: Original video generation model by Alibaba.  
-**DiffSynth-Studio**: Codebase used for training and preprocessing.  
-**ControlNet**: Implementation of Controllable Image Generation.  
-**PIXART-δ**: An Implementation of ControlNet under the Dit Architecture.  
+- **Wan2.1**: Original video generation model by Alibaba.  
+- **DiffSynth-Studio**: Codebase used for training and preprocessing.  
+- **ControlNet**: Implementation of Controllable Image Generation.  
+- **PIXART-δ**: An Implementation of ControlNet under the Dit Architecture.  
 
 
