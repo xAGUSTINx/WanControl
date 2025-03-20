@@ -132,7 +132,7 @@ python examples/wanvideo/train_wan_t2v.py \
 > **Note:** When `control_layers` is set to 15 (default value), the overall memory usage is approximately 26G due to most parameters being frozen. If your GPU memory is limited, you may consider reducing `control_layers` (the memory usage is approximately 22G and 19G when set to 10 and 5, respectively).
 
 
----
+
 
 ## Model Checkpoints
 
@@ -142,13 +142,13 @@ Ensure the following checkpoints are available in the specified paths:
 2. **VAE**: `Wan2.1_VAE.pth`
 3. **DiT Model**: `diffusion_pytorch_model.safetensors`
 
----
+
 
 ## License
 
 This project is open-source and licensed under the **Apache License 2.0**. For more details, see the [LICENSE](LICENSE) file.
 
----
+
 
 ## Acknowledgments
 
@@ -157,7 +157,7 @@ This project is open-source and licensed under the **Apache License 2.0**. For m
 • **ControlNet**: Implementation of Controllable Image Generation.
 • **PIXART-δ**: An Implementation of ControlNet under the Dit Architecture.
 
----
+
 
 ## Contact
 
