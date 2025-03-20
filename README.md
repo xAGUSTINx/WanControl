@@ -5,7 +5,6 @@
 WanControl is an extension of the [**Wan2.1**](https://github.com/Wan-Video/Wan2.1) video generation model, an open-source project by Alibaba. This project integrates ​**ControlNet** into the training pipeline of Wan2.1, leveraging the codebase from ​[**DiffSynth-Studio**](https://github.com/modelscope/DiffSynth-Studio). Our ​**ControlNet-Transformer** implementation is inspired by ​[**PIXART-δ**](https://arxiv.org/pdf/2401.05252), which introduces advanced techniques for controllable image and video synthesis. The integration enables fine-grained control over video generation using control signals, such as images or videos.
 
 
----
 
 ## Installation
 
