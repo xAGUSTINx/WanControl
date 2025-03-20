@@ -66,6 +66,11 @@ pip install "huggingface_hub[cli]"
 huggingface-cli download Wan-AI/Wan2.1-T2V-14B --local-dir ./Wan2.1-T2V-14B
 ```
 
+Ensure the following checkpoints are available in the specified paths:
+
+- **Text Encoder**: `models_t5_umt5-xxl-enc-bf16.pth`
+- **VAE**: `Wan2.1_VAE.pth`
+- **DiT Model**: `diffusion_pytorch_model.safetensors`
 
 
 ## Preprocessing
@@ -125,14 +130,6 @@ python examples/wanvideo/train_wan_t2v.py \
 
 
 
-
-## Model Checkpoints
-
-Ensure the following checkpoints are available in the specified paths:
-
-- **Text Encoder**: `models_t5_umt5-xxl-enc-bf16.pth`
-- **VAE**: `Wan2.1_VAE.pth`
-- **DiT Model**: `diffusion_pytorch_model.safetensors`
 
 
 
