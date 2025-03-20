@@ -130,9 +130,9 @@ python examples/wanvideo/train_wan_t2v.py \
 
 Ensure the following checkpoints are available in the specified paths:
 
-1. **Text Encoder**: `models_t5_umt5-xxl-enc-bf16.pth`
-2. **VAE**: `Wan2.1_VAE.pth`
-3. **DiT Model**: `diffusion_pytorch_model.safetensors`
+- **Text Encoder**: `models_t5_umt5-xxl-enc-bf16.pth`
+- **VAE**: `Wan2.1_VAE.pth`
+- **DiT Model**: `diffusion_pytorch_model.safetensors`
 
 
 
