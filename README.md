@@ -97,7 +97,7 @@ data/example_dataset/
     ├── video_00001.mp4.tensors.pth
     ├── image_00002.jpg
     ├── image_00002_c.jpg
-    └── image_00002_c.jpg.tensors.pth
+    └── image_00002.jpg.tensors.pth
 ```
 
 ---
