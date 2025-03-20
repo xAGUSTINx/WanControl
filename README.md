@@ -125,8 +125,12 @@ python examples/wanvideo/train_wan_t2v.py \
   --learning_rate 4e-5 \
   --accumulate_grad_batches 1 \
   --use_gradient_checkpointing \
-  --dataloader_num_workers 8
+  --dataloader_num_workers 8 \
+  --control_layers 15
 ```
+
+> **Note:** When `control_layers` is set to 15 (default value), the overall memory usage is approximately 26G due to most parameters being frozen. If your GPU memory is limited, you may consider reducing `control_layers` (the memory usage is approximately 22G and 19G when set to 10 and 5, respectively).
+
 
 ---
 
