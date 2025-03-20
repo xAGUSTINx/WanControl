@@ -2,7 +2,7 @@
 
 ## Overview
 
-WanControl is an extension of the ​**Wan2.1** video generation model, an open-source project by Alibaba (original repository: [Wan2.1](https://github.com/Wan-Video/Wan2.1)). This project integrates ​**ControlNet** into the training pipeline of Wan2.1, leveraging the codebase from ​**DiffSynth-Studio** ([DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)). Our ​**ControlNet-Transformer** implementation is inspired by ​**PIXART-δ** ([PIXART-δ Paper](https://arxiv.org/pdf/2401.05252)), which introduces advanced techniques for controllable image and video synthesis. The integration enables fine-grained control over video generation using control signals, such as images or videos.
+WanControl is an extension of the [**Wan2.1**](https://github.com/Wan-Video/Wan2.1) video generation model, an open-source project by Alibaba. This project integrates ​**ControlNet** into the training pipeline of Wan2.1, leveraging the codebase from ​[**DiffSynth-Studio**](https://github.com/modelscope/DiffSynth-Studio). Our ​**ControlNet-Transformer** implementation is inspired by ​[**PIXART-δ**](https://arxiv.org/pdf/2401.05252), which introduces advanced techniques for controllable image and video synthesis. The integration enables fine-grained control over video generation using control signals, such as images or videos.
 
 
 ---
@@ -20,11 +20,7 @@ WanControl is an extension of the ​**Wan2.1** video generation model, an open-
    pip install -e .
    ```
 
----
-
 ## Data Preparation
-
-### Data Structure
 
 The dataset should be organized as follows:
 
@@ -38,7 +34,6 @@ data/example_dataset/
     └── image_00002_c.jpg
 ```
 
-### `metadata.csv` Format
 
 The `metadata.csv` file should contain the following columns:
 
@@ -57,7 +52,6 @@ image_00002.jpg,"image description",image_00002_c.jpg
 ```
 
 
----
 
 ## Model Download
 Taking Wan2.1-T2V-1.3B as an example:
@@ -74,7 +68,6 @@ huggingface-cli download Wan-AI/Wan2.1-T2V-14B --local-dir ./Wan2.1-T2V-14B
 ```
 
 
----
 
 ## Preprocessing
 
@@ -144,11 +137,6 @@ Ensure the following checkpoints are available in the specified paths:
 
 
 
-## License
-
-This project is open-source and licensed under the **Apache License 2.0**. For more details, see the [LICENSE](LICENSE) file.
-
-
 
 ## Acknowledgments
 
@@ -158,7 +146,3 @@ This project is open-source and licensed under the **Apache License 2.0**. For m
 • **PIXART-δ**: An Implementation of ControlNet under the Dit Architecture.
 
 
-
-## Contact
-
-For questions or issues, please open an issue on the [GitHub repository](https://github.com/shalfun/WanControl/issues) or contact the maintainers.
